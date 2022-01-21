@@ -1,0 +1,15 @@
+body 
+{
+  font-family: Tahoma, sans-serif;
+  color: #AF7595;
+  background-color: #F3F3F4;
+  
+  /* https://coolors.co/d9c5b2-3f2e56-119da4-af7595-698996 */
+}
+
+header
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #3F2E56;
+}
