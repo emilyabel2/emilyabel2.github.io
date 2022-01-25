@@ -1,20 +1,42 @@
-body 
-{
-  font-family: Papyrus, fantasy;
-  color: #AF7595;
-  background-color: #F3F3F4;
-}
-
-a{ color: antiquewhite}
-a:hover { color: brown}
-
-header
-{
+header {
   font-family: Georgia, serif;
   text-align: center;
-  color: #3F2E56;
+  color: #3f2e56;
 }
 
+body {
+  font-family: Papyrus, fantasy;
+  color: #af7595;
+  background-color: #f3f3f4;
+}
+
+a {
+  color: #af7595;
+}
+a:hover {
+  color: #3f2e56;
+}
+
+p span {
+  display: block;
+}
+
+ul.a {
+  /* https://www.w3schools.com/css/css_list.asp */
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  /*.center {
+    text-align: center;F
+    border: 3px solid navy;
+    } */
+}
 
 /* Color generator:
   https://coolors.co/d9c5b2-3f2e56-119da4-af7595-698996 
