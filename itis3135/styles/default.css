@@ -1,21 +1,19 @@
-header {
+header
+{
   font-family: Georgia, serif;
   text-align: center;
-  color: #3f2e56;
+  color: #3F2E56;
 }
 
-body {
+body 
+{
   font-family: Papyrus, fantasy;
-  color: #af7595;
-  background-color: #f3f3f4;
+  color: #AF7595;
+  background-color: #F3F3F4;
 }
 
-a {
-  color: #af7595;
-}
-a:hover {
-  color: #3f2e56;
-}
+a{ color: #AF7595; }
+a:hover { color: #3F2E56; }
 
 p span {
   display: block;
@@ -32,10 +30,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  /*.center {
-    text-align: center;F
-    border: 3px solid navy;
-    } */
+   
+   /* .center {
+    text-align: center;
+    border:3px; 
+    } */ 
 }
 
 /* Color generator:
