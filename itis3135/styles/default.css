@@ -54,6 +54,18 @@ img {
   margin-right: auto;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
+}
+
 /* 
 Helpful sources:
 unlisted bullets
