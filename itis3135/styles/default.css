@@ -1,5 +1,6 @@
 header
 {
+  text-decoration: none;
   font-family: Bebas Neue, serif;
   text-align: center;
   color: #3F2E56;
@@ -7,6 +8,7 @@ header
 
 body 
 {
+  text-decoration: none;
   font-family: Georgia, sans-serif;
   color: #AF7595;
   background-color: #F3F3F4;
@@ -14,6 +16,7 @@ body
 
 footer
 {
+  text-decoration: none;
   font-family: Bebas Neue, serif;
   text-align: center;
   color: #AF7595;
@@ -61,6 +64,7 @@ img {
 
 /* 
 Helpful sources:
+
 unlisted bullets
  https://www.w3schools.com/css/css_list.asp 
 
