@@ -22,12 +22,21 @@ footer
 a{ color: #AF7595; }
 a:hover { color: #3F2E56; }
 
+h2 {
+  text-align: center;
+}
+
 p span {
   display: block;
 }
 
+p.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+}
+
 ul.a {
-  /* https://www.w3schools.com/css/css_list.asp */
   list-style-type: none;
   list-style-position: outside;
 }
@@ -36,13 +45,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-   
-   /* .center {
-    text-align: center;
-    border:3px; 
-    } */ 
 }
 
-/* Color generator:
+/* 
+Helpful sources:
+unlisted bullets
+ https://www.w3schools.com/css/css_list.asp 
+
+Color generator:
   https://coolors.co/d9c5b2-3f2e56-119da4-af7595-698996 
 */
