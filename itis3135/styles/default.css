@@ -36,6 +36,12 @@ p.center {
   width: 20em;
 }
 
+p.indexcenter {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+
 ul.a {
   list-style-type: none;
   list-style-position: outside;
