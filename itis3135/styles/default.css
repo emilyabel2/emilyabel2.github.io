@@ -55,15 +55,12 @@ img {
 }
 
 .column {
-  float: center;
-  width: 50%;
+  flex: 50%;
   padding: 5px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.row {
+  display: flex;
 }
 
 
