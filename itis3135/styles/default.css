@@ -51,10 +51,10 @@ table, th, td {
 tr.ch {
   background-color: #3F2E56;
 }
-tr.c0 {
+tr.c0, td.c0 {
   background-color: #AF7595;
 }
-tr.c1 {
+tr.c1, td.c1 {
   background-color: #D9C5B2;
 }
 
