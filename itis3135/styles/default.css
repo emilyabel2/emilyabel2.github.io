@@ -46,6 +46,7 @@ table, th, td {
   border-collapse: collapse;
   border-radius: 5;
   border-style: outset;
+  color: #F3F3F4;
 }
 tr.ch {
   background-color: #3F2E56;
