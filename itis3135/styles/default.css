@@ -24,7 +24,12 @@ footer
   color: #AF7595;
 }
 
-a{ color: #AF7595; }
+a
+{ 
+  color: #AF7595; 
+  text-decoration: none;
+}
+
 a:hover { color: #3F2E56; }
 
 h2,h3 {
