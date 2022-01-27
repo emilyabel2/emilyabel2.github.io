@@ -12,6 +12,8 @@ body
   font-family: Georgia, sans-serif; /*georgia isnt sans-serif :(*/
   color: #AF7595;
   background-color: #F3F3F4;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer
