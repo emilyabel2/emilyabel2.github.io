@@ -33,6 +33,7 @@ a
 a:hover { color: #3F2E56; }
 
 h2,h3 {
+  font-family: courier new
   text-align: center;
 }
 
