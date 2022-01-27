@@ -47,11 +47,14 @@ table, th, td {
   border-radius: 5;
   border-style: outset;
 }
+tr.ch {
+  background-color: #3F2E56;
+}
 tr.c0 {
   background-color: #3F2E56;
 }
 tr.c1 {
-  background-color: #AF7595;
+  background-color: #F3F3F4;
 }
 
 p.indexcenter {
