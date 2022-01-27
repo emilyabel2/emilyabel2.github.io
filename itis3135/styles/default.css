@@ -54,7 +54,8 @@ table, th, td {
   border-color: #3F2E56;/*, #AF7595;*/
   border-collapse: collapse;
   border-radius: 5px;
-  border-style: outset;
+  border-style: double;
+  /*border-style: outset;*/
   color: #F3F3F4;
 }
 tr.ch {
