@@ -9,7 +9,7 @@ header
 body 
 {
   text-decoration: none;
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, sans-serif; /*georgia isnt sans-serif :(*/
   color: #AF7595;
   background-color: #F3F3F4;
 }
