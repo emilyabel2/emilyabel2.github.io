@@ -6,6 +6,11 @@ header
   color: #3F2E56;
 }
 
+nav
+{
+  font-weight: 5;
+}
+
 body 
 {
   text-decoration: none;
