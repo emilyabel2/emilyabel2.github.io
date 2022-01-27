@@ -1,7 +1,7 @@
 header
 {
   text-decoration: none;
-  font-family: Bebas Neue, serif;
+  font-family: Bebas Neue, Georgia, serif;
   text-align: center;
   color: #3F2E56;
 }
@@ -9,7 +9,7 @@ header
 body 
 {
   text-decoration: none;
-  font-family: Georgia, sans-serif; /*georgia isnt sans-serif :(*/
+  font-family: Mukta, Fira sans, sans-serif;
   color: #AF7595;
   background-color: #F3F3F4;
   margin-left: auto;
