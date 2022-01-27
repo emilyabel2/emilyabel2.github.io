@@ -33,8 +33,13 @@ a
 a:hover { color: #3F2E56; }
 
 h2,h3 {
-  font-family: courier new;
   text-align: center;
+}
+h2 {
+  font-family: courier new, Georgia, verdana;
+}
+h3 {
+  font-family: Georgia, Times, verdana;
 }
 
 p span {
