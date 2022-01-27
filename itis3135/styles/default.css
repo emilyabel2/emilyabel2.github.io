@@ -42,10 +42,16 @@ p span {
 }
 
 table, th, td {
-  border: 1px solid #3F2E56;
+  border-color: #3F2E56, #AF7595;
   border-collapse: collapse;
-  border-radius: none;
+  border-radius: 5;
   border-style: outset;
+}
+tr.c0 {
+  background-color: #3F2E56;
+}
+tr.c1 {
+  background-color: #AF7595;
 }
 
 p.indexcenter {
