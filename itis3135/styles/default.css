@@ -25,7 +25,7 @@ footer
 a{ color: #AF7595; }
 a:hover { color: #3F2E56; }
 
-h2 {
+h2,h3 {
   text-align: center;
 }
 
