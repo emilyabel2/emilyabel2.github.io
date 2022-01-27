@@ -44,9 +44,9 @@ p span {
 }
 
 table, th, td {
-  border-color: #3F2E56, #AF7595;
+  border-color: #3F2E56/*, #AF7595;*/
   border-collapse: collapse;
-  border-radius: 5;
+  border-radius: 5px;
   border-style: outset;
   color: #F3F3F4;
 }
