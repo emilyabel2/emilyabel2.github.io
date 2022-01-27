@@ -53,8 +53,8 @@ p span {
 table, th, td {
   border-color: #3F2E56;/*, #AF7595;*/
   border-collapse: collapse;
-  border-radius: 1px;
-  border-style: 4px groove;
+  border-radius: none;
+  border-style: groove;
   /*border-style: outset;*/
   color: #F3F3F4;
 }
