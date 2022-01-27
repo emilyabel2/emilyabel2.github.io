@@ -42,8 +42,9 @@ p span {
 }
 
 table, th, td {
-  border: 1.5px solid #3F2E56;
+  border: 1px solid #3F2E56;
   border-collapse: collapse;
+  border-radius: 10px;
 }
 
 p.indexcenter {
