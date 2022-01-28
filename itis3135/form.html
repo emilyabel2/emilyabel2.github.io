@@ -26,22 +26,22 @@
       <p class="center">This is my forms page (activity #3).<br>It's a WIP...</p>
 
       <form action>
-        <label for="name">What is your name? (required)</label><br>
+        <label for="name">What is your name? *required</label><br>
         <input type="text" id="name" name="name" required><br>
-        <label for="phone">What is your phone number? (optional)</label><br>
+        <label for="phone">What is your phone number?</label><br>
         <input type="text" id="phone" name="phone"><br>
-        <label for="email">What is your email? (required)</label><br>
+        <label for="email">What is your email? *required</label><br>
         <input type="text" id="email" name="email" required><br>
 
-        <p>Have you used our website before? (required)</p>
+        <p>Have you used our website before?</p>
         <input type="radio" id="yes" name="used_before" value="yes">
-        <label for="yes" required>Yes</label><br>
+        <label for="yes">Yes</label><br>
         <input type="radio" id="no" name="used_before" value="no">
         <label for="yes">No</label><br><br>
 
-        <label for="owner_type">Which of these options apply to you? (select one)</label>
+        <label for="owner_type">Which of these options apply to you?</label>
         <select name="owners" id="owners">
-          <option value="uninformed" required>Uninformed Owner (no experience, little-no research)</option>
+          <option value="uninformed">Uninformed Owner (no experience, little-no research)</option>
           <option value="beginner">Beginner Owner (1yr-5yr)</option>
           <option value="informed">Informed Owner (heavily reserached)</option>
           <option value="experienced">Experienced Owner (5+yr)</option>
@@ -49,7 +49,7 @@
 
         <p>Which of these dogs do you prefer?</p>
         <input type="checkbox" id="dog1" name="dog1" vale="Beagle">
-        <label for="dog1" required>Beagle</label><br>
+        <label for="dog1">Beagle</label><br>
         <input type="checkbox" id="dog2" name="dog2" vale="German Shepard">
         <label for="dog2">German Shepard</label><br>
         <input type="checkbox" id="dog3" name="dog3" vale="Labrador Retriever">
