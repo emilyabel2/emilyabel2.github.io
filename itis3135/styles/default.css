@@ -68,6 +68,11 @@ p span
   list-style-position: inside;
 }
 
+figcaption
+{
+  text-align: 30px;
+}
+
 table, th, td {
   border-color: #3F2E56;/*, #AF7595;*/
   border-collapse: collapse;
