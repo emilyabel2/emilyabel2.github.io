@@ -59,18 +59,10 @@ p span {
   list-style-position: inside;
 }
 
-.centertable {
-  margin-left: center;
-  margin-right: center;
-  table-layout: center;
-  text-align: left;
-  list-style-position: inside;
-}
-
 table, th, td {
   border-color: #3F2E56;/*, #AF7595;*/
   border-collapse: collapse;
-  border-radius: none;
+  border-radius: 1px;
   border-style: groove;
   /*border-style: outset;*/
   color: #F3F3F4;
