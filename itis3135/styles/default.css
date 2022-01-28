@@ -51,17 +51,21 @@ p span {
   display: block;
 }
 
+.leftalign {
+  text-align:left
+}
+
 .center {
   /*margin-left: 120px;
   margin-right: 120px;*/
   text-align: center;
   list-style-position: inside;
 }
-.centertable {
+/*.centertable {
   display: table;
   text-align: center;
   list-style-position: inside;
-}
+}*/
 
 table, th, td {
   border-color: #3F2E56;/*, #AF7595;*/
