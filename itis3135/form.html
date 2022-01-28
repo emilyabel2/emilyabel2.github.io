@@ -39,11 +39,13 @@
         <input type="radio" id="no" name="used_before" value="no">
         <label for="yes">No</label><br>
 
-        <p>Which of these options apply to you? (select one) dropdown</p>
-        <input type="" id="owner1" name="owner1" value="Experienced Owner (5+yr)">
-        <input type="" id="owner2" name="owner2" value="Beginner Owner (1yr-5yr)">
-        <input type="" id="owner3" name="owner3" value="Informed Owner (heavily reserached)">
-        <input type="" id="owner4" name="owner4" value="Uninformed Owner (no experience, little-no research)">
+        <label for="owner_type">Which of these options apply to you? (select one)</label>
+        <select name="owners" id="owners">
+          <option value="uninformed">Uninformed Owner (no experience, little-no research)</option>
+          <option value="beginner">Beginner Owner (1yr-5yr)</option>
+          <option value="informed">Experienced Owner (5+yr)</option>
+          <option value="experienced">Experienced Owner (5+yr)</option>
+        </select>
 
         <p>Which of these dogs do you prefer?</p>
         <input type="checkbox" id="dog1" name="dog1" vale="Beagle">
