@@ -23,11 +23,11 @@
 
     <main>
       <h2>Forms</h2>
-      <form action>
+      <form action="#">
         <label for="name">What is your name? <small>*required</small></label><br>
         <input type="text" id="name" name="name" placeholder="John Smith" required><br>
         <label for="phone">What is your phone number?</label><br>
-        <input type="number" id="phone" name="phone" placeholder="8881234567" size="10"><br>
+        <input type="tel" id="phone" name="phone" placeholder="8881234567" size="10"><br>
         <label for="email">What is your email? <small>*required</small></label><br>
         <input type="email" id="email" name="email" placeholder="myemail@gmail.com" required><br>
 
@@ -37,7 +37,7 @@
         <input type="radio" id="no" name="used_before" value="no">
         <label for="yes">No</label><br><br>
 
-        <label for="owner_type">Which of these options apply to you?</label><br>
+        <p>Which of these options apply to you?</p><br>
         <select name="owners" id="owners">
           <option value="uninformed">Uninformed Owner (no experience, little-no research)</option>
           <option value="beginner">Beginner Owner (1yr-5yr)</option>
@@ -46,17 +46,17 @@
         </select>
 
         <p>Which of these dogs do you prefer?</p>
-        <input type="checkbox" id="dog1" name="dog1" vale="Beagle">
+        <input type="checkbox" id="dog1" name="dog1" value="Beagle">
         <label for="dog1">Beagle</label><br>
-        <input type="checkbox" id="dog2" name="dog2" vale="German Shepard">
+        <input type="checkbox" id="dog2" name="dog2" value="German Shepard">
         <label for="dog2">German Shepard</label><br>
-        <input type="checkbox" id="dog3" name="dog3" vale="Labrador Retriever">
+        <input type="checkbox" id="dog3" name="dog3" value="Labrador Retriever">
         <label for="dog3">Labrador Retriever</label><br>
-        <input type="checkbox" id="dog4" name="dog4" vale="Samoyed">
+        <input type="checkbox" id="dog4" name="dog4" value="Samoyed">
         <label for="dog4">Samoyed</label><br>
-        <input type="checkbox" id="dog5" name="dog5" vale="Doodle">
+        <input type="checkbox" id="dog5" name="dog5" value="Doodle">
         <label for="dog5">Doodle</label><br>
-        <input type="checkbox" id="dog6" name="dog6" vale="Golden Retriever">
+        <input type="checkbox" id="dog6" name="dog6" value="Golden Retriever">
         <label for="dog6">Golden Retriever</label><br><br>
 
         <input type="reset" value="reset">
