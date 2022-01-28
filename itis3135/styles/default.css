@@ -37,38 +37,35 @@ a
 
 a:hover { color: #D9C5B2; }
 
-h2,h3 {
+h2,h3 
+{
   text-align: center;
 }
-h2 {
+h2 
+{
   font-family: courier new, Georgia, verdana;
 }
-h3 {
+h3 
+{
   font-family: Georgia, Times, verdana;
 }
 
-p span {
+p span 
+{
   display: block;
 }
 
-.leftalign {
+.leftalign 
+{
   text-align:left
 }
 
-.center {
-  /*margin-left: 120px;
-  margin-right: 120px;*/
-  text-align: center;
-  list-style-position: inside;
-}
-
-table.center {
+.center 
+{
   margin-left: auto;
   margin-right: auto;
-}
-
-ol.center li {
-  text-align: left;
+  text-align: center;
+  list-style-position: inside;
 }
 
 table, th, td {
