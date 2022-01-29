@@ -114,6 +114,17 @@ img {
   text-align: center;
 }
 
+input 
+{
+  width: 100%;
+  padding: 5 px 12px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  color: #F3F3F4;
+  background-color: #3F2E56;
+  border-color: #AF7595;
+}
+
 /* 
 Helpful sources:
 
