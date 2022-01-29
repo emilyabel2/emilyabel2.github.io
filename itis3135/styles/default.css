@@ -116,9 +116,9 @@ img {
 
 input 
 {
-  width: 100%;
+  /*(width: 100%;
   padding: 5 px 12px;
-  margin: 3px 0;
+  margin: 3px 0;*/
   box-sizing: border-box;
   color: #F3F3F4;
   background-color: #3F2E56;
