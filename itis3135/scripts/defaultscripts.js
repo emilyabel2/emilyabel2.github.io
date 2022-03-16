@@ -42,8 +42,8 @@ function feedAxolotl()
 {
     let uInput1 = prompt("Axolotls should be fed an earthworm every other day, how many Axolotls do you own?")
     uInput1 = parseInt(uInput1);
-    var feed = uInput1/2;
-    var weeklyFeed = feed*7
+    var feed = uInput1 / 2;
+    var weeklyFeed = feed * 7
     alert("Your axolotl(s) eat an average of " + feed + " per day, and require " + weeklyFeed + " earthworms per week.")
 }
 
@@ -51,9 +51,9 @@ function tankSpace()
 {
     let uInput1 = prompt("Axolotls need at least 10 gallons, and should be housed seperately when young.\nHow many axolotls do you want?")
     uInput1 = parseInt(uInput1);
-    var adultTanks = uInput1/2;
+    var adultTanks = uInput1 / 2;
     var youthTanksGallons = uInput1 * 10;
-    var adultTanksGallons = uinput1 * 5;
+    var adultTanksGallons = uInput1 * 5;
     alert("You should have " + uInput1 + " tanks for adolescents, which is " + youthTanksGallons + " total gallons\nOr you can have " 
     + adultTanks + "for adult pairs which is a total of " + adultTanksGallons + "gallons!")
 }
