@@ -51,7 +51,7 @@ function tankSpace()
 {
     let uInput1 = prompt("Axolotls need at least 10 gallons, and should be housed seperately when young.\nHow many axolotls do you want?")
     uInput1 = parseInt(uInput1);
-    var adultTanks = uInput1 / 2;
+    var adultTanks = Math.ceil(uInput1 / 2);
     var youthTanksGallons = uInput1 * 10;
     var adultTanksGallons = uInput1 * 5;
     alert("You should have " + uInput1 + " tank(s) for adolescents, which is " + youthTanksGallons + " total gallons\nOr you can have " 
