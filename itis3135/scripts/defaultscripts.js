@@ -54,7 +54,7 @@ function tankSpace()
     var adultTanks = uInput1 / 2;
     var youthTanksGallons = uInput1 * 10;
     var adultTanksGallons = uInput1 * 5;
-    alert("You should have " + uInput1 + " tanks for adolescents, which is " + youthTanksGallons + " total gallons\nOr you can have " 
-    + adultTanks + " tank for the adult pair(s) which is " + adultTanksGallons + " total gallons!")
+    alert("You should have " + uInput1 + " tank(s) for adolescents, which is " + youthTanksGallons + " total gallons\nOr you can have " 
+    + adultTanks + " tank(s) for the adult pair(s) which is " + adultTanksGallons + " total gallons!")
 }
 fuunction 
