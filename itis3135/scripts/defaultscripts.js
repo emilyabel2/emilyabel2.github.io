@@ -6,7 +6,7 @@ function greeting()
 {
     let name = document.getElementById('name').value;
     let feeling = document.getElementById('feeling').value;
-    let welcome = "Ebony Axolotl Welcomes You, " + name + "!\nIt's great/unfortunate that you're feeling " + feeling + "!";
+    let welcome = "Ebony Axolotl welcomes you, " + name + "!\nIt's great/unfortunate that you're feeling " + feeling + "!";
     document.getElementById("greetingmessage").innerHTML = welcome;
 }
 
@@ -51,7 +51,7 @@ function tankSpace()
 {
     let uInput1 = prompt("Axolotls need at least 10 gallons, and should be housed seperately when young.\nHow many axolotls do you want?")
     uInput1 = parseInt(uInput1);
-    var adultTanks
+    var adultTanks = uInput1/2;
     var youthTanksGallons = uInput1 * 10;
     var adultTanksGallons = uinput1 * 5;
     alert("You should have " + uInput1 + " tanks for adolescents, which is " + youthTanksGallons + " total gallons\nOr you can have " 
