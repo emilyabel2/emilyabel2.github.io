@@ -34,7 +34,7 @@ function calcAxolotlsPrice()
 {
     let uInput1 = prompt("Axolotls cost about 50 dollars, how many axolotls would you like to purchase?");
     uInput1 = parseInt(uInput1);
-    var total = uInput1 * 150;
+    var total = uInput1 * 50;
     alert("The total cost of " + uInput1 + " axolotls will be $" + total + "!");
 }
 
@@ -53,9 +53,8 @@ function tankSpace()
     uInput1 = parseInt(uInput1);
     var adultTanks
     var youthTanksGallons = uInput1 * 10;
-    var adultTanksGallons = Uinput1 * 5;
+    var adultTanksGallons = uinput1 * 5;
     alert("You should have " + uInput1 + " tanks for adolescents, which is " + youthTanksGallons + " total gallons\nOr you can have " 
     + adultTanks + "for adult pairs which is a total of " + adultTanksGallons + "gallons!")
-
 }
 fuunction 
